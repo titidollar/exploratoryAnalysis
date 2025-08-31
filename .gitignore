@@ -1,0 +1,26 @@
+# Ignorer l'environnement virtuel
+env/
+venv/
+.venv/
+ENV/
+
+# Byte-code Python
+__pycache__/
+*.py[cod]
+
+# Fichiers générés par des distributions / packaging
+build/
+dist/
+*.egg-info/
+
+# Fichiers temporaires, logs, couverture
+*.log
+*.cover
+.coverage
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers environnement (sensibles)
+.env
